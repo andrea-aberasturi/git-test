@@ -7,18 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" type="text/css">
-
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Chats 🐈‍⬛</title>
 </head>
 
 <body>
-     <!-- BreadCroump -->
-  <ul class="breadcrumb">
-    <li><a href="index.html">Maison</a></li>
-    <li><a href="chats.html">Chats</a></li>
-    <li><a href="chiens.html">Chiens</a></li>
-  </ul>
 
     <!-- Nav-Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -55,8 +48,19 @@
                     </div>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
         </div>
     </nav>
+
+    <!-- BreadCroump -->
+    <ul class="breadcrumb">
+        <li><a href="index.html">Maison</a></li>
+        <li><a href="chats.html">Chats</a></li>
+        <li><a href="chiens.html">Chiens</a></li>
+    </ul>
 
     <div class="col d-flex align-items-start">
         <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
@@ -68,17 +72,20 @@
         </div>
     </div>
 
+        <!-- card -->
     <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/chat.jpg" class="card-img-top" alt="un chat tres jolie">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row  align-items-start">
+            <div class="card" style="width: 18rem;">
+                <img src="images/chat.jpg" class="card-img-top" alt="un chat tres jolie">
+                <div class="card-body">
+                    <p class="card-text">Quelque chose pour les chats</p>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
 
     <!-- Footer -->
-    <footer class="container">
+    <footer class="container p-5">
         <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
             <div class="col">
                 <p><a href="#">Linkedin</a></p>
