@@ -62,13 +62,74 @@
         </ul>
       </div>
 
-  <div class="container text-center mt-3 mb-3">
+      <!-- Carrousel -->
+      <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/chien.jpg" class="img-thumbnail rounded mx-auto d-block w-10" alt="un chien">
+            </div>
+            <div class="carousel-item">
+              <img src="images/chat.jpg" class="img-thumbnail d-block w-10 rounded mx-auto d-block" alt="Un chat">
+            </div>
+            <div class="carousel-item">
+              <img src="images/chien.jpg" class="img-thumbnail w-10 rounded mx-auto d-block" alt="Un chien">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Title -->
+  <div class="container text-center mt-2 mb-2">
     <div class="container m-2">
       <h2>Les plus belle page de Norriture pour les animaux 🎀💓</h2>
     </div>
 
+      <!-- Modal y Form -->
+      <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Ouvert Modal/Form</button>
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Formulario de Contact</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label" >Recipient:</label>
+                  <input type="email" class="form-control" id="recipient-name" placeholder="Ici votre email">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+                <div class="mb-3">
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    Deseo Recibir ofertas via email
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Form -->
-    <div class="justify-content-around container mt-5">
+    <!-- <div class="justify-content-around container mt-5">
       <form class="row g-2">
         <h5>Contacte Avec Nous</h5>
         <div class="col-md-6">
@@ -95,7 +156,8 @@
         <div>
           <button type="submit" class="btn btn-outline-success col-md-3">Envoyee</button>
         </div>
-      </form>
+      </form> -->
+
       <!-- Acordion -->
       <div class="accordion accordion-flush p-3" id="accordionFlushExample">
         <div class="accordion-item">
