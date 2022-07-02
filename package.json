@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "live-server"
+    "lite": "live-server",
+    "scss": "sass -o style/ style/"
   },
   "repository": {
     "type": "git",
